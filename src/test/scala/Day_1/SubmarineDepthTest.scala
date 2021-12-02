@@ -1,3 +1,5 @@
+package Day_1
+
 import Day_1.SubmarineDepth._
 import org.scalatest.funsuite.AnyFunSuite
 
