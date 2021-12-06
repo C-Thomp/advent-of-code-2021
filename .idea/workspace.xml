@@ -5,45 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="040ba60f-ecdb-4f5c-8305-711302b19a5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day_2/Directions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_13_1_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_13_7_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_core_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_diagrams_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_featurespec_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_flatspec_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_freespec_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funspec_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funsuite_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_matchers_core_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_mustmatchers_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_propspec_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_refspec_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_shouldmatchers_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_wordspec_2_13_3_2_10_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Advent-Of-Code-2021-build.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Advent-Of-Code-2021.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Day_2/Dive.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day_2/Dive.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/Day_2/DiveTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Day_2/DiveTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day_2/Dive$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day_2/Dive$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day_2/Dive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day_2/Dive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/Day_2/DiveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/Day_2/DiveTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Day_3/BinaryDiagnostic.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Day_3/Input.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/Day_3/BinaryDiagnosticTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day_3/Input$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day_3/Input.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/Day_3/BinaryDiagnosticTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +43,23 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="ScalaTest Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -90,6 +73,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -99,21 +84,28 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="org.scalatest.FunSuite" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Day_1" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Day_3" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Day_3" />
       <recent name="Day_2" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dive">
-    <configuration name="Dive" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Day_2.Dive" />
+  <component name="RunManager" selected="ScalaTest.BinaryDiagnosticTest.filter input bases on most popular leading bit">
+    <configuration name="BinaryDiagnostic" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Day_3.BinaryDiagnostic" />
       <module name="Advent-Of-Code-2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day_2.*" />
+          <option name="PATTERN" value="Day_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,21 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiveTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="Advent-Of-Code-2021" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="testClassPath" value="Day_2.DiveTest" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiveTest.Depth changes when going forwards" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="BinaryDiagnosticTest.filter input bases on most popular leading bit" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Advent-Of-Code-2021" />
       <option name="allowRunningInParallel" value="false" />
       <option name="projectPathOnTarget" />
@@ -156,14 +134,14 @@
         <list />
       </option>
       <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="Day_2.DiveTest" />
-      <option name="testName" value="Depth changes when going forwards" />
+      <option name="testClassPath" value="Day_3.BinaryDiagnosticTest" />
+      <option name="testName" value="filter input bases on most popular leading bit" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiveTest.Multiplies coordinates together" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="BinaryDiagnosticTest.find the most common bit at index position" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Advent-Of-Code-2021" />
       <option name="allowRunningInParallel" value="false" />
       <option name="projectPathOnTarget" />
@@ -171,14 +149,14 @@
         <list />
       </option>
       <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="Day_2.DiveTest" />
-      <option name="testName" value="Multiplies coordinates together" />
+      <option name="testClassPath" value="Day_3.BinaryDiagnosticTest" />
+      <option name="testName" value="find the most common bit at index position" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiveTest.returns coordinates after full list of directions" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="BinaryDiagnosticTest.get epsilon rate" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Advent-Of-Code-2021" />
       <option name="allowRunningInParallel" value="false" />
       <option name="projectPathOnTarget" />
@@ -186,27 +164,42 @@
         <list />
       </option>
       <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="Day_2.DiveTest" />
-      <option name="testName" value="returns coordinates after full list of directions" />
+      <option name="testClassPath" value="Day_3.BinaryDiagnosticTest" />
+      <option name="testName" value="get epsilon rate" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryDiagnosticTest.get gamma rate" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Advent-Of-Code-2021" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="Day_3.BinaryDiagnosticTest" />
+      <option name="testName" value="get gamma rate" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Dive" />
-      <item itemvalue="ScalaTest.DiveTest.returns coordinates after full list of directions" />
-      <item itemvalue="ScalaTest.DiveTest.Multiplies coordinates together" />
-      <item itemvalue="ScalaTest.DiveTest" />
-      <item itemvalue="ScalaTest.DiveTest.Depth changes when going forwards" />
+      <item itemvalue="Application.BinaryDiagnostic" />
+      <item itemvalue="ScalaTest.BinaryDiagnosticTest.find the most common bit at index position" />
+      <item itemvalue="ScalaTest.BinaryDiagnosticTest.get gamma rate" />
+      <item itemvalue="ScalaTest.BinaryDiagnosticTest.get epsilon rate" />
+      <item itemvalue="ScalaTest.BinaryDiagnosticTest.filter input bases on most popular leading bit" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dive" />
-        <item itemvalue="ScalaTest.DiveTest.Depth changes when going forwards" />
-        <item itemvalue="ScalaTest.DiveTest" />
-        <item itemvalue="ScalaTest.DiveTest.Multiplies coordinates together" />
-        <item itemvalue="ScalaTest.DiveTest.returns coordinates after full list of directions" />
+        <item itemvalue="ScalaTest.BinaryDiagnosticTest.filter input bases on most popular leading bit" />
+        <item itemvalue="Application.BinaryDiagnostic" />
+        <item itemvalue="ScalaTest.BinaryDiagnosticTest.get epsilon rate" />
+        <item itemvalue="ScalaTest.BinaryDiagnosticTest.get gamma rate" />
+        <item itemvalue="ScalaTest.BinaryDiagnosticTest.find the most common bit at index position" />
       </list>
     </recent_temporary>
   </component>
