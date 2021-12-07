@@ -2,7 +2,7 @@ package Day_3
 
 import Day_3.Input.rawBinaryInput
 
-import scala.collection.mutable.ArrayBuffer
+import java.util
 
 
 object BinaryDiagnostic {
@@ -19,12 +19,19 @@ object BinaryDiagnostic {
   }
 
   def getMostCommonbitAtIndex(input: Array[String], index: Int) = {
-    val size = input.length
-    var count = 0
-    val isOne = (n: Char) => if (n == '1') count += 1
+    var countOnes = 0
+    var countZeroes = 0
+    val isOne = (n: Char) => if (n == '1') countOnes += 1 else countZeroes += 1
     for (reading <- input) yield isOne(reading(index))
-    val isOneMostCommon = count > (size / 2)
-    if (isOneMostCommon) 1 else 0
+    if (countOnes >= countZeroes) 1 else 0
+  }
+
+  def getLeastCommonbitAtIndex(input: Array[String], index: Int) = {
+    var countOnes = 0
+    var countZeroes = 0
+    val isOne = (n: Char) => if (n == '1') countOnes += 1 else countZeroes += 1
+    for (reading <- input) yield isOne(reading(index))
+    if (countZeroes <= countOnes) 0 else 1
   }
 
   def getGammaRate(input: Array[String]): Int = {
@@ -42,14 +49,44 @@ object BinaryDiagnostic {
     gam * getEpsilonRate(gam)
   }
 
-  def filterByMostPopularBit(input: Array[String], index:Int): Array[String] = {
+  def filterByMostPopularBit(input: Array[String], index: Int): Array[String] = {
     val bit = getMostCommonbitAtIndex(input, index)
     for (str <- input if str(index).asDigit == bit) yield str
+  }
+
+  def filterByLeastPopularBit(input: Array[String], index: Int): Array[String] = {
+    val bit = getLeastCommonbitAtIndex(input, index)
+    for (str <- input if str(index).asDigit == bit) yield str
+  }
+
+  def getOxygenRating(input: Array[String]): Int = {
+    var i = 0
+    var output = filterByMostPopularBit(input, 0)
+    while (output.length > 1) {
+      i += 1
+      output = filterByMostPopularBit(output, i)
+    }
+    toDecimal(output.mkString)
+  }
+
+  def getCo2Rating(input: Array[String]): Int = {
+    var i = 0
+    var output = filterByLeastPopularBit(input, 0)
+    while (output.length > 1) {
+      i += 1
+      //println(output.mkString(" "))
+      output = filterByLeastPopularBit(output, i)
+    }
+    toDecimal(output.mkString)
 
   }
 
+  def getLifeSupportRating(input:Array[String]): Int = {
+    getOxygenRating(input) * getCo2Rating(input)
+  }
+
   def main(args: Array[String]): Unit = {
-    //println(getPowerConsumption(diagnosticReport))
+    println(getLifeSupportRating(diagnosticReport))
   }
 
 }
