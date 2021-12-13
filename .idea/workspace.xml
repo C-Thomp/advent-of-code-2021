@@ -6,10 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="040ba60f-ecdb-4f5c-8305-711302b19a5d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Day_4/BingoCard.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day_4/BingoCard.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Day_4/GiantSquid.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day_4/GiantSquid.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/Day_4/BingoCardTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Day_4/BingoCardTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/Day_4/GiantSquidTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Day_4/GiantSquidTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day_4/BingoCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day_4/BingoCard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day_4/GiantSquid$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day_4/GiantSquid$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day_4/GiantSquid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day_4/GiantSquid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/Day_4/BingoCardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/Day_4/BingoCardTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/Day_4/GiantSquidTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/test-classes/Day_4/GiantSquidTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +108,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.BingoCardTest.Should have marked a number in a column">
+  <component name="RunManager" selected="ScalaTest.BingoCardTest.Should return true for column of marked numbers">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="advent-of-code-2021_974" />
       <method v="2">
@@ -132,21 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BingoCardTest.Should constuct columns from given grid" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="Advent-Of-Code-2021" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="testClassPath" value="Day_4.BingoCardTest" />
-      <option name="testName" value="Should constuct columns from given grid" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BingoCardTest.Should have marked a number in a column" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Advent-Of-Code-2021" />
       <option name="allowRunningInParallel" value="false" />
@@ -162,7 +151,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BingoCardTest.Should have marked a number in a row" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="BingoCardTest.Should return true for column of marked numbers" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Advent-Of-Code-2021" />
       <option name="allowRunningInParallel" value="false" />
       <option name="projectPathOnTarget" />
@@ -171,13 +160,13 @@
       </option>
       <option name="testKind" value="Test name" />
       <option name="testClassPath" value="Day_4.BingoCardTest" />
-      <option name="testName" value="Should have marked a number in a row" />
+      <option name="testName" value="Should return true for column of marked numbers" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BingoCardTest.Should initialise bingo card with numbers" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="BingoCardTest.Should return true for row of marked numbers" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Advent-Of-Code-2021" />
       <option name="allowRunningInParallel" value="false" />
       <option name="projectPathOnTarget" />
@@ -186,7 +175,21 @@
       </option>
       <option name="testKind" value="Test name" />
       <option name="testClassPath" value="Day_4.BingoCardTest" />
-      <option name="testName" value="Should initialise bingo card with numbers" />
+      <option name="testName" value="Should return true for row of marked numbers" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GiantSquidTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Advent-Of-Code-2021" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="Day_4.GiantSquidTest" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,18 +197,18 @@
     </configuration>
     <list>
       <item itemvalue="ScalaTest.BingoCardTest" />
-      <item itemvalue="ScalaTest.BingoCardTest.Should constuct columns from given grid" />
-      <item itemvalue="ScalaTest.BingoCardTest.Should initialise bingo card with numbers" />
       <item itemvalue="ScalaTest.BingoCardTest.Should have marked a number in a column" />
-      <item itemvalue="ScalaTest.BingoCardTest.Should have marked a number in a row" />
+      <item itemvalue="ScalaTest.BingoCardTest.Should return true for row of marked numbers" />
+      <item itemvalue="ScalaTest.GiantSquidTest" />
+      <item itemvalue="ScalaTest.BingoCardTest.Should return true for column of marked numbers" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.BingoCardTest.Should have marked a number in a column" />
-        <item itemvalue="ScalaTest.BingoCardTest.Should have marked a number in a row" />
+        <item itemvalue="ScalaTest.BingoCardTest.Should return true for column of marked numbers" />
+        <item itemvalue="ScalaTest.BingoCardTest.Should return true for row of marked numbers" />
         <item itemvalue="ScalaTest.BingoCardTest" />
-        <item itemvalue="ScalaTest.BingoCardTest.Should initialise bingo card with numbers" />
-        <item itemvalue="ScalaTest.BingoCardTest.Should constuct columns from given grid" />
+        <item itemvalue="ScalaTest.GiantSquidTest" />
+        <item itemvalue="ScalaTest.BingoCardTest.Should have marked a number in a column" />
       </list>
     </recent_temporary>
   </component>

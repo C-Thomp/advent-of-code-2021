@@ -8,14 +8,6 @@ object GiantSquid {
     input.replaceAll(call.toString, "X")
   }
 
-  def checkRowWin(row: String): Boolean = {
-    (row == "X X X X X")
-  }
-
-  def checkColumnWin(col: String): Unit = {
-
-  }
-
 
 
 

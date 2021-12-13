@@ -27,9 +27,14 @@ class BingoCard(grid: String) {
   }
 
   def markNumberInRow(call: Int) = {
-    for (row <- collectionOfRows) yield row.replaceAll(call.toString,"X")
+    for (row <- collectionOfRows) yield row.replaceAll(call.toString, "X")
   }
+
   def markNumberInColumn(call: Int) = {
-    for (row <- collectionOfColumns) yield row.replaceAll(call.toString,"X")
+    for (row <- collectionOfColumns) yield row.replaceAll(call.toString, "X")
+  }
+
+  def isWinner(chck:String): Boolean ={
+    chck.replaceAll(" ","") == "XXXXX"
   }
 }
