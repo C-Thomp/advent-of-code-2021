@@ -1,7 +1,6 @@
-package Day_4
+package Day_4.archive_Day_4
 
-import Day_4.GiantSquid._
-import Day_4.Input._
+import GiantSquid._
 import org.scalatest.funsuite.AnyFunSuite
 
 class GiantSquidTest extends AnyFunSuite {

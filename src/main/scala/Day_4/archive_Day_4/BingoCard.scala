@@ -1,4 +1,4 @@
-package Day_4
+package Day_4.archive_Day_4
 
 import scala.collection.mutable.ArrayBuffer
 
