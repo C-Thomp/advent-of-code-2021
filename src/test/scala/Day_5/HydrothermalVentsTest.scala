@@ -4,7 +4,7 @@ import Day_5.HydrothermalVents.{getAllCoordinates, parseLine}
 import org.scalatest.funsuite.AnyFunSuite
 
 class HydrothermalVentsTest extends AnyFunSuite {
-
+//some change
 
   test("parse input returns coordinates") {
     val input = "8,0 -> 0,8"

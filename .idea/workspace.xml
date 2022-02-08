@@ -5,39 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="040ba60f-ecdb-4f5c-8305-711302b19a5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day_10/SyntaxScoring.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day_10/input_day_10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day_4/Bingo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day_4/input_day_4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day_5/HydrothermalVents.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day_5/example_input_5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Day_5/input_day_5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/Day_10/SyntaxScoringTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/Day_4/BingoTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/Day_5/HydrothermalVentsTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_7_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Advent-Of-Code-2021-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Advent-Of-Code-2021-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Day_4/BingoCard.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day_4/archive_Day_4/BingoCard.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Day_4/GiantSquid.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Day_4/Input.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day_4/Input.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Day_5/HydrothermalVents.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Day_5/HydrothermalVents.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/Day_4/BingoCardTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Day_4/archive_Day_4/BingoCardTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/Day_4/GiantSquidTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Day_4/archive_Day_4/GiantSquidTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day_4/BingoCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day_4/GiantSquid$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day_4/GiantSquid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day_4/Input$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day_4/Input$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day_4/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day_4/Input.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day_5/HydrothermalVents$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day_5/HydrothermalVents$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Day_5/HydrothermalVents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Day_5/HydrothermalVents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/Day_4/BingoCardTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/Day_4/GiantSquidTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/Day_5/HydrothermalVentsTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/Day_5/HydrothermalVentsTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
